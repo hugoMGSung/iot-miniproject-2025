@@ -56,7 +56,7 @@ namespace WpfIoTSimulatorApp.Views
         private void BtnCheck_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             StartSensorCheck();
-
+            Thread.Sleep(1000);
             // 랜덤으로 색상을 결정짓는 작업
             Random rand = new Random();
             int result = rand.Next(1, 3); // 1~2 중 하나 선별
@@ -78,26 +78,17 @@ namespace WpfIoTSimulatorApp.Views
         }
 
         private void StartSensorCheck()
-        {
+        {            
             // 센서 애니메이션
-            Dispatcher.Invoke(DispatcherPriority.Normal, new Action(delegate
+            DoubleAnimation sa = new DoubleAnimation
             {
-                Debug.WriteLine("UI작업시작");
-                DoubleAnimation sa = new DoubleAnimation
-                {
-                    From = 1,
-                    To = 0,
-                    Duration = TimeSpan.FromSeconds(1),
-                    AutoReverse = true                   
-                };
+                From = 1,
+                To = 0,
+                Duration = TimeSpan.FromSeconds(1),
+                AutoReverse = true                   
+            };
 
-                SortingSensor.BeginAnimation(OpacityProperty, sa);
-
-                Debug.WriteLine("UI작업종료");
-            }));
-
-            Debug.WriteLine("Dispatcher 완전종료");
-            
+            SortingSensor.BeginAnimation(OpacityProperty, sa);
         }
     }
 }
