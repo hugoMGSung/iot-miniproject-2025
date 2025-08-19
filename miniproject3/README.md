@@ -61,14 +61,14 @@
 
 [소스](./conveyor_belt/cb0003.ino)
 
-mp0013 동영상 추가
+https://github.com/user-attachments/assets/55dcde90-ed47-42aa-901a-88bc3b5c7e6b
 
 #### 칼라센서 
 - 센싱이 정확하지 않은 문제 내포. 센서가 저렴. 다른 센서와 복합적으로 사용
 
 [소스](./conveyor_belt/cb0004.ino)
 
-mp0014.mp4 동영상 추가
+https://github.com/user-attachments/assets/2d0c22fa-386c-4d27-bf93-5f36bacd49aa
 
 #### MQTT 통신
 - Arduino R4 WIFI에서 통신 가능. RPi나 외부 연결이 불필요
@@ -84,9 +84,8 @@ mp0014.mp4 동영상 추가
 
 [소스](./conveyor_belt/cb0006.ino)
 
-mp0015.mp4 동영상 추가
 
-
+https://github.com/user-attachments/assets/78f1c2f0-22f2-4e9b-8c8c-6ec47fe813f2
 
 ### MES 소스수정
 
@@ -123,7 +122,8 @@ mp0015.mp4 동영상 추가
     }
     ```
 
-mp0018.mp4 동영상 추가
+https://github.com/user-attachments/assets/b25e44e1-2a77-4699-82e7-d4c422b9ecde
+
 
 ### 추가 진행
 
