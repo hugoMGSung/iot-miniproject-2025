@@ -127,7 +127,7 @@ https://github.com/user-attachments/assets/b25e44e1-2a77-4699-82e7-d4c422b9ecde
 
 ### 추가 진행
 - 컬러센서 센싱 후 부저 동작
-    - 성공과 실패에 따라 다른 소리 발생
+    -  [x] 성공과 실패에 따라 다른 소리 발생
 
 - 모니터링 앱에 비상정지 버튼 추가, 컨베이어 벨트 비상정지 기능 
     - Arduino MQTT Subscribe 추가
