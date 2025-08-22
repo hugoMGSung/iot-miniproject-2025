@@ -92,7 +92,7 @@
 - 이미지를 AI Server로 전달하고 결과를 돌려받는 웹사이트
 - index.html 작업
 
-[소스](./backend/ASPWebSolution/ASPWebApp/...)
+[소스](./backend/ASPWebSolution/ASPWebApp/wwwroot/index.html)
 
 <img src="../image/mp0020.jpg" width="600">
 
@@ -100,3 +100,12 @@
 
 - API controller 작업
     - net_service API 컨트롤러 구현
+
+[소스](./backend/ASPWebSolution/ASPWebApp/Controllers/NetServiceController.cs)
+
+실행결과1
+
+<img src="../image/mp0021.jpg" width="600">
+
+실행결과2
+
