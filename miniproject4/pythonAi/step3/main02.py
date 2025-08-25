@@ -1,6 +1,5 @@
 # 동영상 탐지 서비스
-import io, base64
-from PIL import Image
+import base64
 import numpy as np
 from ultralytics import YOLO
 import cv2
@@ -81,8 +80,8 @@ cap = cv2.VideoCapture('./data/vietnam_traffic.mp4')
 # 소스 FPS 읽기 (코덱에 따라 0이 나올 수도 있어서 보정)
 src_fps = cap.get(cv2.CAP_PROP_FPS)
 if not src_fps or src_fps <= 1:
-    src_fps = 30.0  # 합리적 기본값
-
+    src_fps = 30.0  # 합리적 
+    
 frame_time_ms = 1000.0 / src_fps  # 한 프레임에 할당할 시간(ms)
 
 while cap.isOpened():
