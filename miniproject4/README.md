@@ -166,6 +166,6 @@ protocol websockets
 
 <img src="../image/mp0025.jpg" width="700">
 
-
 동영상 결과화면
 
+https://github.com/user-attachments/assets/70a96e30-6dc5-4077-a345-a8ef56810652
