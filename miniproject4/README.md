@@ -172,3 +172,21 @@ protocol websockets
 동영상 결과화면
 
 https://github.com/user-attachments/assets/70a96e30-6dc5-4077-a345-a8ef56810652
+
+
+#### 추가내용
+- yolov8n.pt, yolov8m.pt, yolov9c.pt 중 yolov8n.pt가 처리속도 빠름
+
+| 모델 이름        | 설명          |  특징           |
+| ------------ | ----------- |  ------------ |
+| `yolov8n.pt` | **Nano 모델** | 가장 작고빠름, 속도 우선        |
+| `yolov8s.pt` | Small       | 적당한 속도, 범용           |
+| `yolov8m.pt` | Medium      | 정확도 ↑ 느림      |
+| `yolov8l.pt` | Large       | 고성능 느림      |              |
+| `yolov8x.pt` | Xtreme      | 가장 느림. 연구용 or 서버 전용 |
+| `yolov9c.pt` | Compact   | 작은 모델, 빠름    |
+| `yolov9e.pt` | Efficient | 정확도/속도 밸런스   |
+| `yolov9s.pt` | Small     | YOLOv8s보다 향상 |
+| `yolov9m.pt` | Medium    |              |
+| `yolov9l.pt` | Large     |              |
+| `yolov9x.pt` | Xtreme    | 최고 정확도       |
