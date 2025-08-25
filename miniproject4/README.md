@@ -2,6 +2,9 @@
 
 ## 파이썬 AI Server(API동작) + ASP.NET Core 연동 프로젝트
 
+자바 스프링부트 프로젝트와 파이썬 AI 프로젝트 연결하기(허진경 / 부크크)로 학습
+[교재링크](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=343982011&start=slayer)
+
 ### python 기본
 
 #### 파이썬 웹애플리케이션
